@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: brown;
+    height: 2500px;
+}
+footer{
+    background-color: coral;
+    height: 300vh;
+}
+#output{
+    position: fixed;
+    z-index: 9999;
+    font-size: 30px;
+    top: 10px;
+    left: 20px;
+    box-sizing: border-box;
+}
+.wrapper{
+    overflow: hidden;
+    height: 400px;
+}
+.inner{
+    height: 800px;
+}
+.inner img{
+    height: 100%;
+    width: 100%
+}
